@@ -1,6 +1,7 @@
 body {
     margin: 0;
         padding-top: 800px;
+    text-align: center;
 }
 .profil {
     width: 175px;
@@ -38,7 +39,8 @@ h1 {
 h2 {
     font-size: 30px;
     line-height: 1.2;
-    font-family:cursive;
+    font-family: 'MonteCarlo', cursive;
+font-family: 'Pacifico', cursive;
     font-weight: 300;
 }
 #name {
@@ -69,7 +71,7 @@ section {
 .menu{
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 30px;
     cursor: pointer;
@@ -87,4 +89,13 @@ section {
 }
 .links:hover{
     background-color: crimson;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+.article:hover {
+    color: fuchsia;
 }
